@@ -1,0 +1,152 @@
+{
+    "jsonDebugOutput": {
+        "amenities": [],
+        "dealIncludes": "",
+        "editorsPick": false,
+        "enableHold": false,
+        "end": "2018-07-30T23:59:00Z",
+        "entityProvider": "SE",
+        "entityType": "FLASH",
+        "hotelDetails": "<b>Accommodation</b><br>\r\n<br>With everything you need to hunker down after a busy day exploring the capital, the relaxing Comfort Double rooms are replete with up-to-date amenities and come with an en-suite bathroom with shower. In some rooms, huge wall prints break up an earthy colour palette, while in others, classic furnishings create a traditional vibe \u2013 but all feature tall windows letting in streams of natural light.<br>\r\n<br><u>Amenities:</u><br>\r\n<br>- Radio&nbsp;<br>- Wi-Fi <br>- Television with Sky Sports<br>- Air conditioning\r\n<br>- Minibar\r\n<br>- Telephone<br>- Hairdryer\r\n<br>- Safe \r\n<br>\r\n<br><b>Dining\r\n</b><br>\r\n<br>For regional as well as international flavours, the hotel\u2019s Gaumenfreund restaurant serves up Berlin classics alongside tasty dishes from across the globe \u2013 the grilled-to-perfection steaks are a particular highlight. Later, retreat to the hotel bar for a local beer or glass of wine in a sleek space, which features wood panelling, rich hues and soft lighting. The next morning, replenish with vitamin-packed fresh juices from the breakfast buffet, along with freshly baked breads, seasonal fruit and continental delicacies.<br>\r\n<br><b>Location\r\n</b><br>\r\n<br>Just a five-minute walk from G\u00fcntzelstra\u00dfe underground station, these well-located digs are the ideal base for exploring the capital. A short walk \u2013 or two underground stops \u2013 away is the grand shopping boulevard of Kurf\u00fcrstendamm, while Berlin Zoo is a five-minute drive away. Berlin Tegel Airport is 20 minutes by car from the hotel.",
+        "id": 74685,
+        "location": {
+            "city": {
+                "id": 154460,
+                "name": "Berlin"
+            },
+            "country": {
+                "id": 12,
+                "name": "Germany"
+            },
+            "county": "",
+            "displayName": "Hyperion Hotel Berlin, Germany",
+            "latitude": 52.49391951103659,
+            "longitude": 13.333319043751317
+        },
+        "order": 420,
+        "photos": [
+            {
+                "caption": "Berlin",
+                "order": 0,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/b26e49dc_4659_4263_a6fe_5896e7ca8956_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 1,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/e645c891_164d_4bf0_9c73_7bc4f430eb2a_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 2,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/580986b3_3e9b_4e9d_aa80_13d04acd84f7_nws.jpg"
+            },
+            {
+                "caption": "Berlin",
+                "order": 3,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/a8b92ee6_3256_48bb_8940_4eb10d21df66_nws.jpg"
+            },
+            {
+                "caption": "Comfort Double room",
+                "order": 4,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/74685/79048d52_2e1c_4dcf_884f_e0a9a24182dd_nws.jpg"
+            },
+            {
+                "caption": "Comfort Double room",
+                "order": 5,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/cf42ca1e_cb3d_44ab_bf4a_bafa17168be7_nws.jpg"
+            },
+            {
+                "caption": "Comfort Double room",
+                "order": 6,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/74685/b795bf14_4135_4f7c_8b65_e662dc3d0f52_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 7,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/446abcef_ec3a_45ab_84a4_832c051a5d13_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 8,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/205ee0fb_115a_4757_a34a_dca040e24d4a_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 9,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/b15eba46_4e3a_44c4_b7d0_7362d87c30b4_nws.jpg"
+            },
+            {
+                "caption": "Berlin",
+                "order": 10,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/688bdb31_78ba_4d2d_8e63_6c52c33881fa_nws.jpg"
+            },
+            {
+                "caption": "Comfort Double room",
+                "order": 11,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/74685/5aac5ae2_d7ea_4025_ae98_9348b80b8519_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 12,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/bd61ad66_b305_428e_a6a8_e3c8b019671a_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 13,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/27b918df_089a_49be_ba2c_144fadee1f6f_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 14,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/d2222f8a_88b8_469d_be69_a6cc67088373_nws.jpg"
+            },
+            {
+                "caption": "",
+                "order": 15,
+                "url": "https://d1x3cbuht6sy0f.cloudfront.net/sales/53876/06d1bc08_ddb0_4e0e_a860_df4b0d0b9a6c_nws.jpg"
+            }
+        ],
+        "price": {
+            "currency": "GBP",
+            "description": "per room per night",
+            "discount": {
+                "discountPercent": 47.0,
+                "note": "hotel website price"
+            },
+            "discounted": 72.0,
+            "full": 136.0
+        },
+        "priceCompareURL": "",
+        "reasonToLove": "Classic Berlin stay with rooftop terrace near Kurf\u00fcrstendamm",
+        "saleType": {
+            "displayName": "Hotel only",
+            "key": "HOTEL"
+        },
+        "secondOpinion": "<ul><li>To find out more about the hotel, please visit their <a href=\"https://www.h-hotels.com/en/hyperion/hotels/hyperion-hotel-berlin\">website</a></li><li>Read guest reviews on <a href=\"https://www.tripadvisor.co.uk/Hotel_Review-g187323-d282731-Reviews-Hyperion_Hotel_Berlin-Berlin.html\">TripAdvisor</a></li><li>Compare our rates with those available elsewhere online, starting with <a href=\"https://www.trivago.co.uk/berlin-8514/hotel/hyperion-hotel-berlin-5553\">trivago</a></li></ul>",
+        "smartStay": false,
+        "start": "2018-07-22T00:01:00Z",
+        "summaryContent": "With its location near the heart of the capital, Hyperion Hotel Berlin is perfectly placed near the shopping riches of the grand Kurf\u00fcrstendamm boulevard, where famous department stores jostle for space alongside luxury boutiques and big-name designer haunts.<br><br>Snap up bargains at the famous KaDeWe shopping centre and window-gaze at the likes of Chanel and Valentino, before heading down some of the lesser-trodden side streets to browse chic boutiques housed in elegant old apartment buildings and atmospheric squares lined with bars and restaurants. After dark, the nightlife scene hots up, drawing in locals and visitors keen to soak up the area's buzzy vibe.<br>\r\n<br>Alternatively, stay closer to home and feast on classic Berlin specialties at the hotel\u2019s traditional eatery, Gaumenfreund, before retreating to the rooftop terrace on warmer days or the polished wood-panelled bar for a beer or glass of wine - the perfect tipple before a cosy night's rest in a well-equipped room. The next day, take in the Charlottenburg-Wilmersdorf district by foot, swing by the modern Potsdamer Platz square, stroll through Tiergarten and discover the haunting Kaiser Wilhelm Memorial Church - or hop on a train at the nearby metro station to easily discover the rest of the city\u2019s charms.",
+        "summaryTitle": "A welcoming city pad with rooftop terrace, near Kurf\u00fcrstendamm and a 12-minute drive from Brandenburg Gate - including breakfast and late check out",
+        "tags": [
+            {
+                "displayName": "City",
+                "key": "city"
+            }
+        ],
+        "territoryCodes": [
+            "DE",
+            "CH",
+            "SE",
+            "DK",
+            "NO",
+            "IT",
+            "NL",
+            "BE",
+            "UK",
+            "US"
+        ],
+        "title": "Charming Berlin stay with summer dates",
+        "tripAdvisorURL": "https://www.tripadvisor.co.uk/Hotel_Review-g187323-d282731-Reviews-Hyperion_Hotel_Berlin-Berlin.html",
+        "weLike": "<ul style=\"\"><li style=\"\">Splurging at the chic boutiques and big-name designer stores lining the grand Kurf\u00fcrstendamm boulevard \u2013 a short walk from the hotel</li><li style=\"\">Soaking up the buzzy after-hours scene at the nearby crop of thrumming bars and restaurants</li><li style=\"\">Sipping on local beer at the hotel\u2019s atmospheric bar before tasting local Berlin fare at the Gaumenfreund restaurant</li></ul>"
+    }
+}

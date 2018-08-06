@@ -1,0 +1,52 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.82f1f660-d962-4b62-8257-9217d2de8a3a",
+    "application": {
+      "applicationId": "amzn1.ask.skill.258c1e36-afd4-4d5b-8f50-fbab4ed83475"
+    },
+    "attributes": {
+      "hotelDetails": "Hotel Bristol Berlin",
+      "price": "81 pounds per room per night",
+      "location": "Berlin"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AF52EY23IOMTC4PRGDEPRJFV36YOD6KARDSKFXU37OQK2IW66PAHV3CSRLSMABOPMPHYLQJF4SL3NBCWFX2564YGVNNJBGGTR5FV3QW6KPDTRI3XLJKMHPBQWXJICI6TBK2IGITT3HNLIZ2BUZ62HL73KICEHP4RKFETWG2ATWML4AJIWJZF3E4DO54BS47ZO7VDUDXS3NR5NHA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.f91e7aef-2e44-4cb1-943c-b50c20af7c61",
+    "intent": {
+      "name": "SearchHolidays",
+      "slots": {
+        "city": {
+          "name": "city",
+          "value": "Berlin"
+        },
+        "saleAction": {
+          "name": "saleAction"
+        }
+      }
+    },
+    "locale": "en-GB",
+    "timestamp": "2018-02-09T17:33:33Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.258c1e36-afd4-4d5b-8f50-fbab4ed83475"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AF52EY23IOMTC4PRGDEPRJFV36YOD6KARDSKFXU37OQK2IW66PAHV3CSRLSMABOPMPHYLQJF4SL3NBCWFX2564YGVNNJBGGTR5FV3QW6KPDTRI3XLJKMHPBQWXJICI6TBK2IGITT3HNLIZ2BUZ62HL73KICEHP4RKFETWG2ATWML4AJIWJZF3E4DO54BS47ZO7VDUDXS3NR5NHA"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "How about, Grand Hyatt Berlin with prices from 163 pounds per room per night?",
+      "type": "PlainText"
+    },
+    "card": {
+      "content": "How about, Grand Hyatt Berlin with prices from 163 pounds per room per night?",
+      "title": "Results for Berlin"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "text": "Would you like to favourite this, have it sent to you in an email or find something else?",
+        "type": "PlainText"
+      }
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "text": "How about, Grand Hyatt Berlin with prices from 163 pounds per room per night?"
+      },
+      "card": {
+        "content": "How about, Grand Hyatt Berlin with prices from 163 pounds per room per night?",
+        "title": "Results for Berlin"
+      },
+      "directives": [
+        {
+          "slotToElicit": "saleAction"
+        },
+        {
+          "template": {
+            "title": "Results for Berlin",
+            "textContent": {
+              "primaryText": {
+                "richText": "<font size=\"7\">How about, Grand Hyatt Berlin with prices from 163 pounds per room per night?</font>"
+              }
+            },
+            "backButtonBehavior": "HIDDEN"
+          }
+        }
+      ],
+      "reprompt": {
+        "outputSpeech": {
+          "text": "Would you like to favourite this, have it sent to you in an email or find something else?"
+        }
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {
+    "hotelDetails": "Grand Hyatt Berlin",
+    "price": "163 pounds per room per night",
+    "location": "Berlin"
+  }
+}

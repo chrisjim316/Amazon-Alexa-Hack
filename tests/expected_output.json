@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "text": "How about, Millennium Hotel London Knightsbridge with prices from 129 pounds per room per night?",
+      "type": "PlainText"
+    },
+    "card": {
+      "content": "How about, Millennium Hotel London Knightsbridge with prices from 129 pounds per room per night?",
+      "title": "Results for London"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "text": "Would you like to favourite this, have it sent to you in an email or find something else?",
+        "type": "PlainText"
+      }
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "text": "How about, Millennium Hotel London Knightsbridge with prices from 129 pounds per room per night?"
+      },
+      "card": {
+        "content": "How about, Millennium Hotel London Knightsbridge with prices from 129 pounds per room per night?",
+        "title": "Results for London"
+      },
+      "directives": [
+        {
+          "slotToElicit": "saleAction"
+        },
+        {
+          "template": {
+            "title": "Results for London",
+            "textContent": {
+              "primaryText": {
+                "richText": "<font size=\"7\">How about, Millennium Hotel London Knightsbridge with prices from 129 pounds per room per night?</font>"
+              }
+            },
+            "backButtonBehavior": "HIDDEN"
+          }
+        }
+      ],
+      "reprompt": {
+        "outputSpeech": {
+          "text": "Would you like to favourite this, have it sent to you in an email or find something else?"
+        }
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {
+    "hotelDetails": "Millennium Hotel London Knightsbridge",
+    "price": "129 pounds per room per night",
+    "location": "London"
+  }
+}

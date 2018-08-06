@@ -1,0 +1,52 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "SessionId.74c9eabb-fd14-4c71-918d-8da8fc03a1ee",
+    "application": {
+      "applicationId": "amzn1.ask.skill.258c1e36-afd4-4d5b-8f50-fbab4ed83475"
+    },
+    "attributes": {
+      "saleId": "123",
+      "hotelDetails": "Grand Hyatt Berlin",
+      "price": "163 pounds per room per night",
+      "location": "Berlin"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AH53CI5WRRUBNVBJ6O5M7GLBDQMVFWFXRH5SLGWJ5KE3TUJUDC7FXBTSZJUVYDIY54CZTNY7NKZEL6MAH3DKNOM42F27RDDVFOUYUHC2VAAXOEUNSFT7AV75X44FKUMKJVPUVVDH3CQXIXEDFMWZE53HUQGANJ2KPRPC4DPDZJHHK2HJC3SIXUY5MEYVTO6425QPAQAM2MTQIEA"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.f80fd17e-5e7f-4228-a284-edfb64b9032c",
+    "intent": {
+      "name": "Skip",
+      "slots": {
+        "request": {
+          "name": "request"
+        },
+        "kindRequest": {
+          "name": "kindRequest"
+        }
+      }
+    },
+    "locale": "en-GB",
+    "timestamp": "2018-02-23T14:20:22Z"
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "System": {
+      "application": {
+        "applicationId": "amzn1.ask.skill.258c1e36-afd4-4d5b-8f50-fbab4ed83475"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AH53CI5WRRUBNVBJ6O5M7GLBDQMVFWFXRH5SLGWJ5KE3TUJUDC7FXBTSZJUVYDIY54CZTNY7NKZEL6MAH3DKNOM42F27RDDVFOUYUHC2VAAXOEUNSFT7AV75X44FKUMKJVPUVVDH3CQXIXEDFMWZE53HUQGANJ2KPRPC4DPDZJHHK2HJC3SIXUY5MEYVTO6425QPAQAM2MTQIEA"
+      },
+      "device": {
+        "supportedInterfaces": {}
+      }
+    }
+  },
+  "version": "1.0"
+}

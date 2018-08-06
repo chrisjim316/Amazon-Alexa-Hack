@@ -1,0 +1,175 @@
+{
+    "favouriteResults": {
+        "response": {
+            "card": {
+                "content": "I have successfully favourited the Berlin sale",
+                "title": "Secret Escapes",
+                "type": "Simple"
+            },
+            "directives": [
+                {
+                    "slotToElicit": "saleAction",
+                    "type": "Dialog.ElicitSlot"
+                }
+            ],
+            "outputSpeech": {
+                "text": "I have successfully favourited the Berlin sale",
+                "type": "PlainText"
+            },
+            "reprompt": {
+                "outputSpeech": {
+                    "text": null,
+                    "type": "PlainText"
+                }
+            },
+            "shouldEndSession": false
+        },
+        "sessionAttributes": {
+            "lastResult": {
+                "hotelDetails": "Grand Hyatt Berlin",
+                "location": "Berlin",
+                "price": "163 pounds per room per night",
+                "saleId": "123"
+            }
+        },
+        "version": "Alexa 2.0"
+    },
+    "inspireMeResults": {
+        "response": {
+            "card": {
+                "content": "How about, Seminaris CampusHotel Berlin with prices from 67 pounds per room per night?",
+                "title": "Results that Inspire me",
+                "type": "Simple"
+            },
+            "directives": [
+                {
+                    "slotToElicit": "saleAction",
+                    "type": "Dialog.ElicitSlot"
+                }
+            ],
+            "outputSpeech": {
+                "text": "How about, Seminaris CampusHotel Berlin with prices from 67 pounds per room per night?",
+                "type": "PlainText"
+            },
+            "reprompt": {
+                "outputSpeech": {
+                    "text": "Would you like to favourite this, have it sent to you in an email or find something else?",
+                    "type": "PlainText"
+                }
+            },
+            "shouldEndSession": false
+        },
+        "sessionAttributes": {
+            "lastResult": {
+                "hotelDetails": "Grand Hyatt Berlin",
+                "location": "Berlin",
+                "price": "163 pounds per room per night",
+                "saleId": "123"
+            }
+        },
+        "version": "Alexa 2.0"
+    },
+    "mockRequestResults": {
+        "response": {
+            "card": {
+                "content": "How about, DoubleTree By Hilton London Excel with prices from 59 pounds per room per night?",
+                "title": "Results for London",
+                "type": "Simple"
+            },
+            "directives": [
+                {
+                    "slotToElicit": "saleAction",
+                    "type": "Dialog.ElicitSlot"
+                }
+            ],
+            "outputSpeech": {
+                "text": "How about, DoubleTree By Hilton London Excel with prices from 59 pounds per room per night?",
+                "type": "PlainText"
+            },
+            "reprompt": {
+                "outputSpeech": {
+                    "text": "Would you like to favourite this, have it sent to you in an email or find something else?",
+                    "type": "PlainText"
+                }
+            },
+            "shouldEndSession": false
+        },
+        "sessionAttributes": {
+            "lastResult": {
+                "hotelDetails": "DoubleTree By Hilton London Excel",
+                "location": "London",
+                "price": "59 pounds per room per night",
+                "saleId": 74227
+            }
+        },
+        "version": "Alexa 2.0"
+    },
+    "searchHolidayResults": {
+        "response": {
+            "card": {
+                "content": "How about, Seminaris CampusHotel Berlin with prices from 67 pounds per room per night?",
+                "title": "Results for Berlin",
+                "type": "Simple"
+            },
+            "directives": [
+                {
+                    "slotToElicit": "saleAction",
+                    "type": "Dialog.ElicitSlot"
+                }
+            ],
+            "outputSpeech": {
+                "text": "How about, Seminaris CampusHotel Berlin with prices from 67 pounds per room per night?",
+                "type": "PlainText"
+            },
+            "reprompt": {
+                "outputSpeech": {
+                    "text": "Would you like to favourite this, have it sent to you in an email or find something else?",
+                    "type": "PlainText"
+                }
+            },
+            "shouldEndSession": false
+        },
+        "sessionAttributes": {
+            "lastResult": {
+                "hotelDetails": "Seminaris CampusHotel Berlin",
+                "location": "Berlin",
+                "price": "67 pounds per room per night",
+                "saleId": 74063
+            }
+        },
+        "version": "Alexa 2.0"
+    },
+    "skipIntentResults": {
+        "response": {
+            "card": {
+                "content": "How about a hotel at Berlin with prices from 72.0 pounds per night?",
+                "title": "Skipping to the next result",
+                "type": "Simple"
+            },
+            "directives": [
+                {
+                    "slotToElicit": "saleAction",
+                    "type": "Dialog.ElicitSlot"
+                }
+            ],
+            "outputSpeech": {
+                "text": "How about a hotel at Berlin with prices from 72.0 pounds per night?",
+                "type": "PlainText"
+            },
+            "reprompt": {
+                "outputSpeech": {
+                    "text": "Would you like to favourite this, have it sent to you in an email or find something else? Or would you like other choices?",
+                    "type": "PlainText"
+                }
+            },
+            "shouldEndSession": false
+        },
+        "sessionAttributes": {
+            "hotelDetails": "<b>Accommodation</b><br>\r\n<br>With everything you need to hunker down after a busy day exploring the capital, the relaxing Comfort Double rooms are replete with up-to-date amenities and come with an en-suite bathroom with shower. In some rooms, huge wall prints break up an earthy colour palette, while in others, classic furnishings create a traditional vibe \u2013 but all feature tall windows letting in streams of natural light.<br>\r\n<br><u>Amenities:</u><br>\r\n<br>- Radio&nbsp;<br>- Wi-Fi <br>- Television with Sky Sports<br>- Air conditioning\r\n<br>- Minibar\r\n<br>- Telephone<br>- Hairdryer\r\n<br>- Safe \r\n<br>\r\n<br><b>Dining\r\n</b><br>\r\n<br>For regional as well as international flavours, the hotel\u2019s Gaumenfreund restaurant serves up Berlin classics alongside tasty dishes from across the globe \u2013 the grilled-to-perfection steaks are a particular highlight. Later, retreat to the hotel bar for a local beer or glass of wine in a sleek space, which features wood panelling, rich hues and soft lighting. The next morning, replenish with vitamin-packed fresh juices from the breakfast buffet, along with freshly baked breads, seasonal fruit and continental delicacies.<br>\r\n<br><b>Location\r\n</b><br>\r\n<br>Just a five-minute walk from G\u00fcntzelstra\u00dfe underground station, these well-located digs are the ideal base for exploring the capital. A short walk \u2013 or two underground stops \u2013 away is the grand shopping boulevard of Kurf\u00fcrstendamm, while Berlin Zoo is a five-minute drive away. Berlin Tegel Airport is 20 minutes by car from the hotel.",
+            "location": "Berlin",
+            "price": 72.0,
+            "saleId": 74685
+        },
+        "version": "Alexa 2.0"
+    }
+}

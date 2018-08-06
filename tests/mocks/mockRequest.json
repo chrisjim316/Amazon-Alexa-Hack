@@ -1,0 +1,101 @@
+{
+    "version": "1.0",
+    "session": {
+        "new": true,
+        "sessionId": "amzn1.echo-api.session.9cf99584-868f-482e-9284-1f729bf9e4ed",
+        "application": {
+            "applicationId": "amzn1.ask.skill.258c1e36-afd4-4d5b-8f50-fbab4ed83475"
+        },
+        "user": {
+            "userId": "amzn1.ask.account.AGLZ546XY2CO7KQ7ZL3JJKENIYYSRC42XFSTNG5U7ZFVLOJPBCQNWH2AW6LKPXRO3WCXJXVYLWCQWBLCKK5TINZNLV5P6ROQF45ZGN2B2GGZB4AUZUVQZ4YS44ZIYU65CM5AZSMHVBM7JTT25RFAXJM3W5IQBUQVHVSI65HZ5ADURTHNINZXQ2IBJR6T3WDSGUIXAKG3GYPC6MQ"
+        }
+    },
+    "context": {
+        "System": {
+            "application": {
+                "applicationId": "amzn1.ask.skill.258c1e36-afd4-4d5b-8f50-fbab4ed83475"
+            },
+            "user": {
+                "userId": "amzn1.ask.account.AGLZ546XY2CO7KQ7ZL3JJKENIYYSRC42XFSTNG5U7ZFVLOJPBCQNWH2AW6LKPXRO3WCXJXVYLWCQWBLCKK5TINZNLV5P6ROQF45ZGN2B2GGZB4AUZUVQZ4YS44ZIYU65CM5AZSMHVBM7JTT25RFAXJM3W5IQBUQVHVSI65HZ5ADURTHNINZXQ2IBJR6T3WDSGUIXAKG3GYPC6MQ"
+            },
+            "device": {
+                "deviceId": "amzn1.ask.device.AENBNSPIPDGU6QUNUOA4KMIEBFED2FYJ6OT3LO7BFKIQU43WWPLTPPHANULQMMKPTIGIQHDMB4WWK2OS3DBZLF542CB5W6NGQQECZHOA24MPOF77JT4GNNJAJBUCEOLX47EGXNBG3BH6ETFM4QW5ZXWYIN3Q",
+                "supportedInterfaces": {}
+            },
+            "apiEndpoint": "https://api.eu.amazonalexa.com",
+            "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjI1OGMxZTM2LWFmZDQtNGQ1Yi04ZjUwLWZiYWI0ZWQ4MzQ3NSIsImV4cCI6MTUzMjcwODA0OCwiaWF0IjoxNTMyNzA0NDQ4LCJuYmYiOjE1MzI3MDQ0NDgsInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVOQk5TUElQREdVNlFVTlVPQTRLTUlFQkZFRDJGWUo2T1QzTE83QkZLSVFVNDNXV1BMVFBQSEFOVUxRTU1LUFRJR0lRSERNQjRXV0syT1MzREJaTEY1NDJDQjVXNk5HUVFFQ1pIT0EyNE1QT0Y3N0pUNEdOTkpBSkJVQ0VPTFg0N0VHWE5CRzNCSDZFVEZNNFFXNVpYV1lJTjNRIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUdMWjU0NlhZMkNPN0tRN1pMM0pKS0VOSVlZU1JDNDJYRlNUTkc1VTdaRlZMT0pQQkNRTldIMkFXNkxLUFhSTzNXQ1hKWFZZTFdDUVdCTENLSzVUSU5aTkxWNVA2Uk9RRjQ1WkdOMkIyR0daQjRBVVpVVlFaNFlTNDRaSVlVNjVDTTVBWlNNSFZCTTdKVFQyNVJGQVhKTTNXNUlRQlVRVkhWU0k2NUhaNUFEVVJUSE5JTlpYUTJJQkpSNlQzV0RTR1VJWEFLRzNHWVBDNk1RIn19.jzVi3lkbIz4N5NF3SVsEhN8ExCkSSaJrj5nzytzcS-kDMNH8HMvTpHlPAouCAT9a9YBIKUvDyDkw7wWNfdT_fqi27NKiLX6axXpMQzIaEpRQ6_SN-t-ENTZ0HIyhndQY4z_Wa6VPS9gnJ0hesYA-vYpqHhh6Y0D1pNAmg_AZP64QCKc7ms9K54WXKrjcBXoOSFRSxo-NaBmq-8m8rc7q9qo3EM1FCwoIokXAZS-90Ly94EfQ46nqQLwpwsgjslMzp9U3J1vRxtmxrkXkfif_Z6jIcbBvdtDW02v08PHXEBvheBaNMCbapMAaCeyukxOK1SjpcrQCL5TDvZiYt7lhaQ"
+        }
+    },
+    "request": {
+        "type": "IntentRequest",
+        "requestId": "amzn1.echo-api.request.218edd27-c053-42de-ba23-b6c94a0d6fea",
+        "timestamp": "2018-07-27T15:14:08Z",
+        "locale": "en-GB",
+        "intent": {
+            "name": "SearchHolidays",
+            "confirmationStatus": "NONE",
+            "slots": {
+                "accommodation": {
+                    "name": "accommodation",
+                    "value": "a hotel in",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.258c1e36-afd4-4d5b-8f50-fbab4ed83475.accommodations",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "hotel",
+                                            "id": "e919c49d5f0cd737285367810a3394d0"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "confirmationStatus": "NONE"
+                },
+                "kindRequest": {
+                    "name": "kindRequest",
+                    "confirmationStatus": "NONE"
+                },
+                "request": {
+                    "name": "request",
+                    "value": "find",
+                    "resolutions": {
+                        "resolutionsPerAuthority": [
+                            {
+                                "authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.258c1e36-afd4-4d5b-8f50-fbab4ed83475.userRequests",
+                                "status": {
+                                    "code": "ER_SUCCESS_MATCH"
+                                },
+                                "values": [
+                                    {
+                                        "value": {
+                                            "name": "find",
+                                            "id": "ea170e2cafb1337755c8b3d5ae4437f4"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "confirmationStatus": "NONE"
+                },
+                "saleAction": {
+                    "name": "saleAction",
+                    "confirmationStatus": "NONE"
+                },
+                "city": {
+                    "name": "city",
+                    "value": "London",
+                    "confirmationStatus": "NONE"
+                }
+            }
+        },
+        "dialogState": "STARTED"
+    }
+}
