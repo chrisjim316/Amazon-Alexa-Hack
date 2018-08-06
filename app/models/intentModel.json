@@ -1,0 +1,591 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "accommodations",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "holiday",
+              "synonyms": [
+                "holiday",
+                "holidays",
+                "holidays in",
+                "holidays at",
+                "holidays for",
+                "holiday in",
+                "holiday for",
+                "holiday at",
+                "a holiday"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "hotel",
+              "synonyms": [
+                "hotels",
+                "hotel",
+                "a hotel",
+                "a hotel for",
+                "hotel for",
+                "hotel at",
+                "a hotel at",
+                "hotels at",
+                "hotels for",
+                "a hotel in",
+                "hotel in",
+                "hotels in"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "adjectives",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "good",
+              "synonyms": [
+                "good",
+                "a good",
+                "a very good",
+                "the best"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "beautiful",
+              "synonyms": [
+                "the most beautiful",
+                "a beautiful",
+                "beautiful"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "nice",
+              "synonyms": [
+                "a nice",
+                "nice"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "cool",
+              "synonyms": [
+                "the coolest",
+                "a cool",
+                "cool"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "inspiring",
+              "synonyms": [
+                "an inspiring",
+                "inspiring"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "destinations",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "place",
+              "synonyms": [
+                "a place",
+                "place"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "city",
+              "synonyms": [
+                "a city",
+                "city"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "destination",
+              "synonyms": [
+                "a destination",
+                "destination"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "somewhere",
+              "synonyms": [
+                "somewhere",
+                "somewhere to",
+                "to somewhere"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "kindRequests",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "want",
+              "synonyms": [
+                "I want to",
+                "I want you to",
+                "I just want",
+                "I just want you to",
+                "I want",
+                "I want a",
+                "I want an"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "should",
+              "synonyms": [
+                "should",
+                "should you",
+                "could",
+                "could you",
+                "could you please",
+                "should you please"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "saleActions",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "email",
+              "synonyms": [
+                "send it",
+                "email it",
+                "email me that",
+                "send me that",
+                "send me an email with that",
+                "email me",
+                "send that to my email",
+                "email it to me",
+                "email that to me",
+                "send it to me",
+                "send me that",
+                "send that to me",
+                "have it sent to me in an email"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "skip",
+              "synonyms": [
+                "i dont' like it",
+                "something else",
+                "try again",
+                "next one",
+                "nope",
+                "nah",
+                "what else",
+                "next",
+                "no",
+                "what's next",
+                "skip that",
+                "find something else",
+                "hear something else"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "favourite",
+              "synonyms": [
+                "save that",
+                "save this",
+                "favourite this",
+                "favourite taht",
+                "heart",
+                "like",
+                "store",
+                "save for later",
+                "save",
+                "add to favourites",
+                "i like it",
+                "keep",
+                "keep it",
+                "favourite it"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "userActions",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "visit",
+              "synonyms": [
+                "visit",
+                "to visit"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "travel",
+              "synonyms": [
+                "to travel",
+                "travel",
+                "travel to",
+                "travel somewhere"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "see",
+              "synonyms": [
+                "to see",
+                "see",
+                "to watch",
+                "watch"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "go",
+              "synonyms": [
+                "go",
+                "to go",
+                "go to",
+                "go somewhere"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "userRequests",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "search",
+              "synonyms": [
+                "search for",
+                "search for me",
+                "search",
+                "search something for",
+                "search something for me",
+                "search me",
+                "search something for me",
+                "search in",
+                "search on",
+                "search a",
+                "search an",
+                "search for a",
+                "search for an",
+                "search for me an",
+                "search for me a",
+                "search me something"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "find",
+              "synonyms": [
+                "find me",
+                "find for me",
+                "find a",
+                "find for",
+                "find",
+                "find something for",
+                "find something",
+                "find something for me",
+                "find in",
+                "find on",
+                "find an",
+                "find me something"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "want",
+              "synonyms": [
+                "I want to",
+                "I want you to",
+                "I just want",
+                "I just want you to",
+                "I want",
+                "I want a",
+                "I want an"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "show",
+              "synonyms": [
+                "show me",
+                "show for me",
+                "show for",
+                "show a",
+                "show something",
+                "show something for",
+                "show something for me",
+                "show",
+                "show a",
+                "show an",
+                "show me something"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "Favourite",
+        "samples": [
+          "save that",
+          "save this",
+          "favourite this",
+          "favourite that",
+          "heart",
+          "like",
+          "store",
+          "save for later",
+          "save",
+          "add to favourites",
+          "i like it",
+          "keep",
+          "keep it",
+          "favourite it"
+        ],
+        "slots": []
+      },
+      {
+        "name": "InspireMe",
+        "samples": [
+          "Inspire me",
+          "I'm bored",
+          "{kindRequest} {request} {adjective} {destination} {action}",
+          "{kindRequest} {adjective} {destination} {action}",
+          "{kindRequest} {adjective} {destination}",
+          "{kindRequest} {request} {adjective} {destination}",
+          "{request} {adjective} {destination} {action}",
+          "{request} {action} {destination}",
+          "{kindRequest} {request} {action} {destination}",
+          "{kindRequest} {request} {action} {adjective} {destination}",
+          "{request} {action} {adjective} {destination}"
+        ],
+        "slots": [
+          {
+            "name": "request",
+            "type": "userRequests"
+          },
+          {
+            "name": "kindRequest",
+            "type": "kindRequests"
+          },
+          {
+            "name": "action",
+            "type": "userActions"
+          },
+          {
+            "name": "destination",
+            "type": "destinations"
+          },
+          {
+            "name": "adjective",
+            "type": "adjectives"
+          }
+        ]
+      },
+      {
+        "name": "SearchHolidays",
+        "samples": [
+          "{request} {city}",
+          "{request} {accommodation} {city}",
+          "{kindRequest} {request} {city}",
+          "{kindRequest} {request} {accommodation} {city}",
+          "{request} {accommodation}",
+          "{kindRequest} {request} {accommodation}"
+        ],
+        "slots": [
+          {
+            "name": "city",
+            "type": "AMAZON.EUROPE_CITY",
+            "samples": [
+              "{city} ",
+              "search for {city}"
+            ]
+          },
+          {
+            "name": "saleAction",
+            "type": "saleActions"
+          },
+          {
+            "name": "accommodation",
+            "type": "accommodations"
+          },
+          {
+            "name": "request",
+            "type": "userRequests"
+          },
+          {
+            "name": "kindRequest",
+            "type": "kindRequests"
+          }
+        ]
+      },
+      {
+        "name": "Skip",
+        "samples": [
+          "i dont' like it",
+          "something else",
+          "try again",
+          "next one",
+          "nope",
+          "nah",
+          "what else",
+          "next",
+          "no",
+          "what's next",
+          "skip that",
+          "{request} something else",
+          "hear something else",
+          "something else {kindRequest}",
+          "{kindRequest} {request} something else",
+          "what else {kindRequest}",
+          "next {kindRequest}"
+        ],
+        "slots": [
+          {
+            "name": "request",
+            "type": "userRequests"
+          },
+          {
+            "name": "kindRequest",
+            "type": "kindRequests"
+          }
+        ]
+      }
+    ],
+    "invocationName": "secret escapes"
+  },
+  "prompts": [
+    {
+      "id": "Elicit.Intent-SearchHolidays.IntentSlot-city",
+      "variations": [
+        {
+          "type": "PlainText",
+          "value": "which city would you like to search for?"
+        }
+      ]
+    }
+  ],
+  "dialog": {
+    "intents": [
+      {
+        "name": "SearchHolidays",
+        "confirmationRequired": false,
+        "prompts": {},
+        "slots": [
+          {
+            "name": "city",
+            "type": "AMAZON.EUROPE_CITY",
+            "elicitationRequired": true,
+            "confirmationRequired": false,
+            "prompts": {
+              "elicitation": "Elicit.Intent-SearchHolidays.IntentSlot-city"
+            }
+          },
+          {
+            "name": "saleAction",
+            "type": "saleActions",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "accommodation",
+            "type": "accommodations",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "request",
+            "type": "userRequests",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          },
+          {
+            "name": "kindRequest",
+            "type": "kindRequests",
+            "elicitationRequired": false,
+            "confirmationRequired": false,
+            "prompts": {}
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,569 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "secret escapes",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Favourite",
+                    "slots": [],
+                    "samples": [
+                        "save that",
+                        "save this",
+                        "favourite this",
+                        "favourite taht",
+                        "heart",
+                        "like",
+                        "store",
+                        "save for later",
+                        "save",
+                        "add to favourites",
+                        "i like it",
+                        "keep",
+                        "keep it",
+                        "favourite it"
+                    ]
+                },
+                {
+                    "name": "InspireMe",
+                    "slots": [
+                        {
+                            "name": "request",
+                            "type": "userRequests"
+                        },
+                        {
+                            "name": "kindRequest",
+                            "type": "kindRequests"
+                        },
+                        {
+                            "name": "action",
+                            "type": "userActions"
+                        },
+                        {
+                            "name": "destination",
+                            "type": "destinations"
+                        },
+                        {
+                            "name": "adjective",
+                            "type": "adjectives"
+                        }
+                    ],
+                    "samples": [
+                        "Inspire me",
+                        "I'm bored",
+                        "{kindRequest} {request} {adjective} {destination} {action}",
+                        "{kindRequest} {adjective} {destination} {action}",
+                        "{kindRequest} {adjective} {destination}",
+                        "{kindRequest} {request} {adjective} {destination}",
+                        "{request} {adjective} {destination} {action}",
+                        "{request} {action} {destination}",
+                        "{kindRequest} {request} {action} {destination}",
+                        "{kindRequest} {request} {action} {adjective} {destination}",
+                        "{request} {action} {adjective} {destination}"
+                    ]
+                },
+                {
+                    "name": "SearchHolidays",
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.EUROPE_CITY",
+                            "samples": [
+                                "{city} ",
+                                "search for {city}"
+                            ]
+                        },
+                        {
+                            "name": "saleAction",
+                            "type": "saleActions"
+                        },
+                        {
+                            "name": "accommodation",
+                            "type": "accommodations"
+                        },
+                        {
+                            "name": "request",
+                            "type": "userRequests"
+                        },
+                        {
+                            "name": "kindRequest",
+                            "type": "kindRequests"
+                        }
+                    ],
+                    "samples": [
+                        "{request} {city}",
+                        "{request} {accommodation} {city}",
+                        "{kindRequest} {request} {city}",
+                        "{kindRequest} {request} {accommodation} {city}",
+                        "{request} {accommodation}",
+                        "{kindRequest} {request} {accommodation}"
+                    ]
+                },
+                {
+                    "name": "Skip",
+                    "slots": [
+                        {
+                            "name": "request",
+                            "type": "userRequests"
+                        },
+                        {
+                            "name": "kindRequest",
+                            "type": "kindRequests"
+                        }
+                    ],
+                    "samples": [
+                        "i dont' like it",
+                        "something else",
+                        "try again",
+                        "next one",
+                        "nope",
+                        "nah",
+                        "what else",
+                        "next",
+                        "no",
+                        "what's next",
+                        "skip that",
+                        "{request} something else",
+                        "hear something else",
+                        "something else {kindRequest}",
+                        "{kindRequest} {request} something else",
+                        "what else {kindRequest}",
+                        "next {kindRequest}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "accommodations",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "holiday",
+                                "synonyms": [
+                                    "holiday",
+                                    "holidays",
+                                    "holidays in",
+                                    "holidays at",
+                                    "holidays for",
+                                    "holiday in",
+                                    "holiday for",
+                                    "holiday at",
+                                    "a holiday"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "hotel",
+                                "synonyms": [
+                                    "hotels",
+                                    "hotel",
+                                    "a hotel",
+                                    "a hotel for",
+                                    "hotel for",
+                                    "hotel at",
+                                    "a hotel at",
+                                    "hotels at",
+                                    "hotels for",
+                                    "a hotel in",
+                                    "hotel in",
+                                    "hotels in"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "adjectives",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "good",
+                                "synonyms": [
+                                    "good",
+                                    "a good",
+                                    "a very good",
+                                    "the best"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "beautiful",
+                                "synonyms": [
+                                    "the most beautiful",
+                                    "a beautiful",
+                                    "beautiful"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "nice",
+                                "synonyms": [
+                                    "a nice",
+                                    "nice"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "cool",
+                                "synonyms": [
+                                    "the coolest",
+                                    "a cool",
+                                    "cool"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "inspiring",
+                                "synonyms": [
+                                    "an inspiring",
+                                    "inspiring"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "destinations",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "place",
+                                "synonyms": [
+                                    "a place",
+                                    "place"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "city",
+                                "synonyms": [
+                                    "a city",
+                                    "city"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "destination",
+                                "synonyms": [
+                                    "a destination",
+                                    "destination"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "somewhere",
+                                "synonyms": [
+                                    "somewhere",
+                                    "somewhere to",
+                                    "to somewhere"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "kindRequests",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "want",
+                                "synonyms": [
+                                    "I want to",
+                                    "I want you to",
+                                    "I just want",
+                                    "I just want you to",
+                                    "I want",
+                                    "I want a",
+                                    "I want an"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "should",
+                                "synonyms": [
+                                    "should",
+                                    "should you",
+                                    "could",
+                                    "could you",
+                                    "could you please",
+                                    "should you please"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "saleActions",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "email",
+                                "synonyms": [
+                                    "send it",
+                                    "email it",
+                                    "email me that",
+                                    "send me that",
+                                    "send me an email with that",
+                                    "email me",
+                                    "send that to my email",
+                                    "email it to me",
+                                    "email that to me",
+                                    "send it to me",
+                                    "send me that",
+                                    "send that to me",
+                                    "have it sent to me in an email"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "skip",
+                                "synonyms": [
+                                    "i dont' like it",
+                                    "something else",
+                                    "try again",
+                                    "next one",
+                                    "nope",
+                                    "nah",
+                                    "what else",
+                                    "next",
+                                    "no",
+                                    "what's next",
+                                    "skip that",
+                                    "find something else",
+                                    "hear something else"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "favourite",
+                                "synonyms": [
+                                    "save that",
+                                    "save this",
+                                    "favourite this",
+                                    "favourite taht",
+                                    "heart",
+                                    "like",
+                                    "store",
+                                    "save for later",
+                                    "save",
+                                    "add to favourites",
+                                    "i like it",
+                                    "keep",
+                                    "keep it",
+                                    "favourite it"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "userActions",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "visit",
+                                "synonyms": [
+                                    "visit",
+                                    "to visit"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "travel",
+                                "synonyms": [
+                                    "to travel",
+                                    "travel",
+                                    "travel to",
+                                    "travel somewhere"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "see",
+                                "synonyms": [
+                                    "to see",
+                                    "see",
+                                    "to watch",
+                                    "watch"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "go",
+                                "synonyms": [
+                                    "go",
+                                    "to go",
+                                    "go to",
+                                    "go somewhere"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "userRequests",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "search",
+                                "synonyms": [
+                                    "search for",
+                                    "search for me",
+                                    "search",
+                                    "search something for",
+                                    "search something for me",
+                                    "search me",
+                                    "search something for me",
+                                    "search in",
+                                    "search on",
+                                    "search a",
+                                    "search an",
+                                    "search for a",
+                                    "search for an",
+                                    "search for me an",
+                                    "search for me a",
+                                    "search me something"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "find",
+                                "synonyms": [
+                                    "find me",
+                                    "find for me",
+                                    "find a",
+                                    "find for",
+                                    "find",
+                                    "find something for",
+                                    "find something",
+                                    "find something for me",
+                                    "find in",
+                                    "find on",
+                                    "find an",
+                                    "find me something"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "want",
+                                "synonyms": [
+                                    "I want to",
+                                    "I want you to",
+                                    "I just want",
+                                    "I just want you to",
+                                    "I want",
+                                    "I want a",
+                                    "I want an"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "show",
+                                "synonyms": [
+                                    "show me",
+                                    "show for me",
+                                    "show for",
+                                    "show a",
+                                    "show something",
+                                    "show something for",
+                                    "show something for me",
+                                    "show",
+                                    "show a",
+                                    "show an",
+                                    "show me something"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "SearchHolidays",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "city",
+                            "type": "AMAZON.EUROPE_CITY",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Intent-SearchHolidays.IntentSlot-city"
+                            }
+                        },
+                        {
+                            "name": "saleAction",
+                            "type": "saleActions",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "accommodation",
+                            "type": "accommodations",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "request",
+                            "type": "userRequests",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "kindRequest",
+                            "type": "kindRequests",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Intent-SearchHolidays.IntentSlot-city",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "which city would you like to search for?"
+                    }
+                ]
+            }
+        ]
+    }
+}
